@@ -1,2 +1,10 @@
-# http-requests-to-rest-api
-A script that makes certain HTTP requests to the REST API server.
+# A script that makes certain HTTP requests to the REST API server
+
+Скрипт, выполняющий определенные HTTP-запросы к REST API определенного сервера, используя токен аутентификации.
+Реализован в рамках тестового задания компании ООО «X».
+
+Скрипт написан на python 3 (version 3.9.2) под Linux. 
+Скрипт запрашивает обязательные параметры: url ссылка сервера REST API, токен аутентификации и рабочую группу-владелец.
+
+Справку можно посмотреть с помощью комадны: 
+`python3 rest_api_requests.py -h`
